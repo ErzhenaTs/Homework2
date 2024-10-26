@@ -57,7 +57,7 @@ public class Main {
         var overallTime = 640;
         var oneEmployeeTime = 8;
         var numberOfEmployees = overallTime / oneEmployeeTime;
-        System.out.println("Всего работников в компании — " + numberOfEmployees);
+        System.out.println("Всего работников в компании — " + numberOfEmployees +".");
 
         var newNumberOfEmployees = numberOfEmployees + 94;
         var newOneEmployeeTime = overallTime / newNumberOfEmployees;
